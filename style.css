@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(imag/fondo-caribe.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+.links-div {
+    display: none;
+}
+
+.signup {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+    padding: 2em;
+}
+
+.center h1 {
+    font-weight: bold;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+.search {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+    color: white;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+}
+
+.social ul li {
+    margin-right: 1em;
+}
+
